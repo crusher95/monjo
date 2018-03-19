@@ -6,6 +6,7 @@ Monjo is an extremely easy to install php based mongo management tool. It can be
 ##Install PHP mongo driver.##
 
 ##Windows##
+=============
 To use MongoDB with PHP, you need to use MongoDB PHP driver. Download the driver from the url <a href="https://s3.amazonaws.com/drivers.mongodb.org/php/index.html">PHP mongo driver</a> Make sure to download the latest release of it. Now unzip the archive and put php_mongo.dll in your PHP extension directory ("ext" by default) and add the following line to your php.ini file −
 
 ```
