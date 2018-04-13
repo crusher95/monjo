@@ -1,7 +1,7 @@
 # monjo
 Web based mongo management tool
 
-Monjo is an extremely easy to install php based mongo management tool. It can be used to easily connect to a mongo database on a local machine or a remote server effortlessly using no auth, authentication or ssh.
+Monjo is an extremely easy to install PHP 7.0 based mongo management tool. It can be used to easily connect to a mongo database on a local machine or a remote server effortlessly using no auth or authentication.
 
 Install PHP mongo driver.
 =============
@@ -26,8 +26,10 @@ sudo apt-get install php7.0-dev
 ```
 
 Then in the php.ini file which is in /etc/php/7.0/apache2 directory, add the mongo db extension:
-
+```
 $ sudo nano /etc/php/7.0/apache2/php.ini 
+```
+
 Add the following line in the file:
 
 ```
